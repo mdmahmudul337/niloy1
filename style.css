@@ -1,0 +1,135 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-menu{
+display: flex;
+padding: 20px;
+justify-content: space-around;
+align-items: center;
+}
+.menu-text{
+    color: white;
+}
+.menu-text>h1::first-letter{
+    color: rgb(223, 109, 16);
+}
+.navber ul{
+list-style: none;
+display: flex;
+text-align: right;
+flex-wrap: wrap;
+}
+.navber ul li a{
+    color: white;
+text-decoration: none;
+padding: 16px 20px;
+float: right;
+text-size-adjust: 100px;
+font-size: 20px;
+}
+.navber>ul>li:nth-child(5){
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.navber>ul>li:nth-child(5):hover{
+    background-color: black;
+}
+.navber ul li{
+    float: right;
+}
+header{
+    background-image: url(pic.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+.content{
+display: flex;
+width: 80vw;
+margin: 0 auto;
+position: relative;
+}
+.text{
+    margin-top: 150px;
+}
+.inline-form{
+    background-color:white;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    box-shadow: 2px 2px 10px rgb(104, 104, 104);
+}
+.inline-form>form>input,a{
+    display: block;
+}
+.inline-form>form{
+    padding: 10px 0;
+}
+form>input{
+    margin:10px 0;
+    padding: 8px;
+}
+form>a{
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+    color: black;
+    background-color: chocolate;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 20px;
+    margin: 20px 0;
+}
+form>a:hover{
+    background-color:rgb(134, 5, 5);
+    color: white;
+    
+}
+.inline-form h1{
+    margin: 25px 0;
+}
+.inline-form h4{
+    margin-bottom: 5px 0;
+    color: rgb(112, 111, 111);
+}
+.sub-heding{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.heding{
+    color: white;
+    margin-bottom: 8px;
+    font-size: 60px;
+}
+.text div a{
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    width: 140px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
+}
+.text div a:hover{
+    background-color: white;
+    color: rgb(0, 0, 0)
+}
+.heding2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 50px;
+
+   
+}
